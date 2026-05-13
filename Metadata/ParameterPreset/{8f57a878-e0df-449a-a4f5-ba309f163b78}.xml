@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{8f57a878-e0df-449a-a4f5-ba309f163b78}">
+		<property name="name">
+			<value>IsBossOut</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{76a6179b-db81-4692-bb8a-739f8705f064}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{76a6179b-db81-4692-bb8a-739f8705f064}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>BossIsOut</value>
+			<value>BossIsIn</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
