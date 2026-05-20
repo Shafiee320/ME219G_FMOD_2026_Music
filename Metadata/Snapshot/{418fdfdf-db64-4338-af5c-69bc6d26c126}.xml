@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{418fdfdf-db64-4338-af5c-69bc6d26c126}">
 		<property name="name">
-			<value>RuinReverb</value>
+			<value>Ruins</value>
 		</property>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
@@ -34,10 +34,16 @@
 			<destination>{ce7ed0b0-bc77-47e8-b4d8-4496f880b608}</destination>
 			<destination>{78d730c8-b3ad-4fe5-9d3c-f429ac62b11b}</destination>
 			<destination>{c513ad91-043e-4aea-a882-6d621466181f}</destination>
+			<destination>{817821b7-ea47-4e2e-91f2-bfb885fb9868}</destination>
+			<destination>{24f381ec-f172-429c-aa05-3451dd54e6cc}</destination>
+			<destination>{0c61e8c4-3fd8-4832-a707-f5a31e7f34c7}</destination>
+			<destination>{fb463cea-e1bc-49c8-9713-b04fde48898a}</destination>
+			<destination>{71952b2a-f2c0-431b-bc68-a2d4a1c97a74}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{444b1522-f358-4915-b906-c52f150ce055}</destination>
 			<destination>{5dd2b407-c123-4cb4-a9a7-15e6c76ed080}</destination>
+			<destination>{94053c83-5fd6-4951-8874-301bf2299a0a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7da83c3d-89fd-4546-a8f9-3da0e1f82777}" />
@@ -198,6 +204,64 @@
 			<destination>{851a99f4-d1f8-4051-9c23-26dcdfb1c2da}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{817821b7-ea47-4e2e-91f2-bfb885fb9868}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{62a60023-cf44-4068-95ff-ac18950c1540}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{24f381ec-f172-429c-aa05-3451dd54e6cc}">
+		<property name="propertyName">
+			<value>lowGain</value>
+		</property>
+		<property name="value">
+			<value>-6</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{d0ff4dda-5a3e-4234-bde9-7c146584c3c2}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{0c61e8c4-3fd8-4832-a707-f5a31e7f34c7}">
+		<property name="propertyName">
+			<value>midGain</value>
+		</property>
+		<property name="value">
+			<value>-37</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{d0ff4dda-5a3e-4234-bde9-7c146584c3c2}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{fb463cea-e1bc-49c8-9713-b04fde48898a}">
+		<property name="propertyName">
+			<value>highGain</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{d0ff4dda-5a3e-4234-bde9-7c146584c3c2}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{71952b2a-f2c0-431b-bc68-a2d4a1c97a74}">
+		<property name="propertyName">
+			<value>wetMix</value>
+		</property>
+		<property name="value">
+			<value>100</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{17b26ff7-263c-4141-b3d5-37691f00f0e6}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{d0ff4dda-5a3e-4234-bde9-7c146584c3c2}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{444b1522-f358-4915-b906-c52f150ce055}">
 		<relationship name="mixerStrip">
 			<destination>{62a60023-cf44-4068-95ff-ac18950c1540}</destination>
@@ -207,5 +271,36 @@
 		<relationship name="mixerStrip">
 			<destination>{3aff4ec0-045d-4eef-9519-ae5734ff5d65}</destination>
 		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{94053c83-5fd6-4951-8874-301bf2299a0a}">
+		<relationship name="mixerStrip">
+			<destination>{2c7c1a83-cea7-4792-b1b1-837511eff77e}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{17b26ff7-263c-4141-b3d5-37691f00f0e6}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="initialValue">
+			<value>-100</value>
+		</property>
+		<property name="attackTime">
+			<value>900</value>
+		</property>
+		<property name="attackShape">
+			<value>0.342218131</value>
+		</property>
+		<property name="peakValue">
+			<value>-2.22222209</value>
+		</property>
+		<property name="releaseTime">
+			<value>720</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.469961554</value>
+		</property>
+		<property name="finalValue">
+			<value>-100</value>
+		</property>
 	</object>
 </objects>

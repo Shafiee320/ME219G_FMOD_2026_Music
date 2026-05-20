@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{2c7c1a83-cea7-4792-b1b1-837511eff77e}">
+		<property name="name">
+			<value>Ambience</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{9d7b2f8b-63ec-490a-a93c-f95693a61d9f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d94ac930-e83c-4fca-83bb-4b3f499d068a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{62a60023-cf44-4068-95ff-ac18950c1540}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{9d7b2f8b-63ec-490a-a93c-f95693a61d9f}">
+		<relationship name="effects">
+			<destination>{d2b36a7c-8a31-43d6-8fe6-420bdf67661c}</destination>
+			<destination>{d0ff4dda-5a3e-4234-bde9-7c146584c3c2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d94ac930-e83c-4fca-83bb-4b3f499d068a}" />
+	<object class="MixerBusFader" id="{d2b36a7c-8a31-43d6-8fe6-420bdf67661c}" />
+	<object class="ThreeEQEffect" id="{d0ff4dda-5a3e-4234-bde9-7c146584c3c2}">
+		<property name="wetDryEnabled">
+			<value>true</value>
+		</property>
+	</object>
+</objects>
