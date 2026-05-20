@@ -28,48 +28,9 @@
 		<property name="inputFormat">
 			<value>2</value>
 		</property>
-		<relationship name="automators">
-			<destination>{95caabf7-d18a-4d00-abd7-8aa1037fd430}</destination>
-		</relationship>
 		<relationship name="mixerReturn">
 			<destination>{3aff4ec0-045d-4eef-9519-ae5734ff5d65}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c079c955-289f-47c9-afc4-630c36690050}" />
-	<object class="Automator" id="{95caabf7-d18a-4d00-abd7-8aa1037fd430}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>level</value>
-		</property>
-		<relationship name="automationCurves">
-			<destination>{0442c9d8-a258-4bd1-a3ed-fbcee56107a0}</destination>
-		</relationship>
-	</object>
-	<object class="AutomationCurve" id="{0442c9d8-a258-4bd1-a3ed-fbcee56107a0}">
-		<relationship name="parameter">
-			<destination>{55093dd5-9e67-4988-8cc2-07ab58ada415}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{c55c7810-dac2-4990-bd1e-e13838c1450a}</destination>
-			<destination>{8861cdd9-76ff-426c-ba80-efeb2d7b0514}</destination>
-		</relationship>
-	</object>
-	<object class="AutomationPoint" id="{c55c7810-dac2-4990-bd1e-e13838c1450a}">
-		<property name="position">
-			<value>0.015536723163841807</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.249556512</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{8861cdd9-76ff-426c-ba80-efeb2d7b0514}">
-		<property name="position">
-			<value>0.99576271186440679</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 </objects>
