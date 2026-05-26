@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{36ccefdd-4085-420a-b87d-e774e901a450}">
+		<property name="name">
+			<value>Inside Cave</value>
+		</property>
+		<relationship name="folder">
+			<destination>{82ee2578-b0ef-4a9b-9045-3be1c9aad12b}</destination>
+		</relationship>
+	</object>
+</objects>
