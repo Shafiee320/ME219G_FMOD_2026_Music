@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{c7cf990d-4d1a-4c7e-9ce7-8681090881fc}">
+	<object class="AudioFile" id="{602d2d4a-ae76-4041-9bb3-c45cf358ad0a}">
 		<property name="assetPath">
-			<value>Ruins/Ruins Zone 2.wav</value>
+			<value>Ruins/Ruins Zone_2ndCycle.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
