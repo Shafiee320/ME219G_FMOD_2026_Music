@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ffe7080b-090e-4c18-a62d-3e0df91bcb40}">
 		<property name="assetPath">
-			<value>Taiko DrumsBossStartTaikoHit.wav</value>
+			<value>BossMusic¨/Taiko DrumsBossStartTaikoHit.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

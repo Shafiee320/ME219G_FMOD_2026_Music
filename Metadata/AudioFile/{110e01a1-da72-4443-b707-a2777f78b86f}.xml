@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{8b609ba0-83bf-4991-a8f3-212435aabbe3}">
+	<object class="AudioFile" id="{110e01a1-da72-4443-b707-a2777f78b86f}">
 		<property name="assetPath">
-			<value>BossMusic¨/BossDrumTest.wav</value>
+			<value>BassPhase2.1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>22.153854875283447</value>
+			<value>6.8571428571428568</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
