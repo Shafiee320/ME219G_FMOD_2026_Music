@@ -130,7 +130,7 @@
 	</object>
 	<object class="TransitionDestinationSound" id="{b7ba901e-969e-4f15-b158-e22b8bbb0a96}">
 		<property name="start">
-			<value>3.4285625</value>
+			<value>5.1428541666666669</value>
 		</property>
 		<property name="length">
 			<value>0</value>
@@ -144,7 +144,7 @@
 	<object class="MixerBusPanner" id="{dc4634fe-feac-4f2c-84c7-bb147954f443}" />
 	<object class="TransitionSourceSound" id="{89cab6e7-5fc6-427d-889e-bc2e4c0f4893}">
 		<property name="length">
-			<value>3.4285625</value>
+			<value>5.1428541666666669</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{0db22276-782c-4349-8d72-d72737fb2424}</destination>
@@ -152,7 +152,7 @@
 	</object>
 	<object class="TransitionDestinationSound" id="{9e172727-3a5c-434b-84f7-56fea4fe5093}">
 		<property name="length">
-			<value>6.8571428571428568</value>
+			<value>5.1428541666666661</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{17601497-0fc4-4343-a44e-9e5e146be4a1}</destination>
@@ -198,7 +198,7 @@
 	</object>
 	<object class="TransitionDestinationSound" id="{13931514-c2a1-41a3-9f6c-a8276cfb2e7f}">
 		<property name="start">
-			<value>3.4285625</value>
+			<value>5.1428541666666669</value>
 		</property>
 		<property name="length">
 			<value>0</value>
@@ -429,7 +429,7 @@
 	</object>
 	<object class="TransitionTimeline" id="{8faedb56-3c32-41e2-921d-d76e673d3eee}">
 		<property name="length">
-			<value>3.4285625</value>
+			<value>5.1428541666666669</value>
 		</property>
 		<relationship name="modules">
 			<destination>{89cab6e7-5fc6-427d-889e-bc2e4c0f4893}</destination>
@@ -476,7 +476,7 @@
 	</object>
 	<object class="AutomationPoint" id="{a2bee4e1-422e-44cd-969e-376a77ded11e}">
 		<property name="position">
-			<value>3.4285625</value>
+			<value>5.1428541666666669</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -495,7 +495,7 @@
 	</object>
 	<object class="AutomationPoint" id="{9aa9f0da-c528-44cd-a194-44483eeee37b}">
 		<property name="position">
-			<value>3.4285625</value>
+			<value>5.1428541666666661</value>
 		</property>
 		<property name="value">
 			<value>1</value>
