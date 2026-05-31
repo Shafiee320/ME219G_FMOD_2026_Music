@@ -285,6 +285,9 @@
 		<property name="quantizationInterval">
 			<value>2</value>
 		</property>
+		<property name="transitionOffset">
+			<value>1</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{d6b35ddc-0886-4d54-b6a6-90a18546bdb5}</destination>
 		</relationship>
