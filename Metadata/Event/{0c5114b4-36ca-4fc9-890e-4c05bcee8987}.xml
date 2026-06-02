@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0c5114b4-36ca-4fc9-890e-4c05bcee8987}">
+		<property name="note">
+			<value>OutdoorZones parametern bestämmer vilken musikloop som spelas.
+
+Combat parametern är en global parameter med ett värde från 0-1 som startar Comvat eventet </value>
+		</property>
 		<property name="name">
 			<value>OutdoorMusic</value>
 		</property>
@@ -37,9 +42,6 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{bf0fbcbb-ac74-4582-9866-9bc59726fa10}</destination>
-		</relationship>
-		<relationship name="parameters">
-			<destination>{be8f900b-a7ad-4203-aee1-7bec8d30ffee}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{0162d023-f4eb-4859-857f-20560f08f51f}</destination>
@@ -148,11 +150,6 @@
 			<destination>{f3f08553-8f46-4b19-b337-9611e5b5eb03}</destination>
 			<destination>{f26756a2-3e1d-4556-838c-524fa24e4520}</destination>
 			<destination>{b993e073-49d5-4ee5-9399-a6d29da2c77a}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProxy" id="{be8f900b-a7ad-4203-aee1-7bec8d30ffee}">
-		<relationship name="preset">
-			<destination>{a8224fff-2af4-4bf0-a611-1653a8868680}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3fb4e215-fa5e-4f60-b474-b0e047cc428e}">

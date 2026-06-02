@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6b0ff961-405a-404e-8616-639edcc83da5}">
+		<property name="note">
+			<value>Combat parametern har ett värde från 0-1 och bestämmer om CombatSnapshot spelas och om volymen av eventet är på. På värdet 0 är eventet av och 1 är den på</value>
+		</property>
 		<property name="name">
 			<value>Combat</value>
 		</property>
@@ -152,6 +155,9 @@
 		<property name="length">
 			<value>15.238095238095237</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{bb5a9aad-c196-4d4f-b569-a683237c0a75}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{a700625b-c95c-4573-8cd0-557d38af9e9b}</destination>
 		</relationship>
@@ -222,6 +228,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{54b4f024-fe03-47b9-a6d2-9f557c0b8ddc}" />
+	<object class="ADSRModulator" id="{bb5a9aad-c196-4d4f-b569-a683237c0a75}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>intensity</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.511739135</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.259137183</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{a700625b-c95c-4573-8cd0-557d38af9e9b}">
 		<relationship name="startPoint">
 			<destination>{121bb63a-4433-440d-8058-c78443fb7562}</destination>
