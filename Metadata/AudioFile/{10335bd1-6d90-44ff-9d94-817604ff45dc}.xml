@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{10335bd1-6d90-44ff-9d94-817604ff45dc}">
 		<property name="assetPath">
-			<value>Phase 3.wav</value>
+			<value>BossMusic¨/Themes/Phase 3.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

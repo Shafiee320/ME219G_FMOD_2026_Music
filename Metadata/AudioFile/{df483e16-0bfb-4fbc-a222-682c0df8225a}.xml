@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{df483e16-0bfb-4fbc-a222-682c0df8225a}">
 		<property name="assetPath">
-			<value>BossMusic¨/Audio 1PolivoksBassGlissando_1.wav</value>
+			<value>BossMusic¨/Stingers/Audio 1PolivoksBassGlissando_1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
