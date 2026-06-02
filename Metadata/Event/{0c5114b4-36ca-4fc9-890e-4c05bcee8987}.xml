@@ -703,8 +703,8 @@
 		<property name="initialValue">
 			<value>-80</value>
 		</property>
-		<property name="attackTime">
-			<value>0</value>
+		<property name="attackShape">
+			<value>-0.197351336</value>
 		</property>
 		<property name="releaseShape">
 			<value>0.516696215</value>
