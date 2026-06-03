@@ -268,6 +268,9 @@
 		<property name="value">
 			<value>-80</value>
 		</property>
+		<relationship name="automators">
+			<destination>{36a1008c-14ea-4f5d-8844-36b8d83c0d82}</destination>
+		</relationship>
 		<relationship name="automatableObject">
 			<destination>{14dfc916-0103-43de-bc43-8dc3fd11f90d}</destination>
 		</relationship>
@@ -288,8 +291,52 @@
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{bcc71f19-69b6-42e6-90e0-2a7e40c4a609}">
+		<relationship name="automationTracks">
+			<destination>{68106658-0e3a-4e01-8db7-f4d2160c182a}</destination>
+		</relationship>
 		<relationship name="mixerStrip">
 			<destination>{14dfc916-0103-43de-bc43-8dc3fd11f90d}</destination>
 		</relationship>
+	</object>
+	<object class="Automator" id="{36a1008c-14ea-4f5d-8844-36b8d83c0d82}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>value</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{8c53c718-5905-49fe-a48b-dbd4e74b4f51}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{68106658-0e3a-4e01-8db7-f4d2160c182a}">
+		<relationship name="automator">
+			<destination>{36a1008c-14ea-4f5d-8844-36b8d83c0d82}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{8c53c718-5905-49fe-a48b-dbd4e74b4f51}">
+		<relationship name="parameter">
+			<destination>{50ee1676-5b71-4e66-a82c-ff954156c4e6}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{435a3422-c146-4e39-8a38-db82e99bce74}</destination>
+			<destination>{9a6ccc50-1c21-4082-b314-8c2a05ea1e29}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{435a3422-c146-4e39-8a38-db82e99bce74}">
+		<property name="position">
+			<value>0.0070621468926553672</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.541533411</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{9a6ccc50-1c21-4082-b314-8c2a05ea1e29}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
 	</object>
 </objects>

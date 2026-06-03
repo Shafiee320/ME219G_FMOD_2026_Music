@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6b0ff961-405a-404e-8616-639edcc83da5}">
 		<property name="note">
-			<value>Combat parametern har ett värde från 0-1 och bestämmer om CombatSnapshot spelas och om volymen av eventet är på. På värdet 0 är eventet av och 1 är den på</value>
+			<value>Combat parametern har ett värde från 0-1 och bestämmer om CombatSnapshot spelas och om volymen av eventet är på. På värdet 0 är eventet av och 1 är eventet på</value>
 		</property>
 		<property name="name">
 			<value>Combat</value>
@@ -64,7 +64,14 @@
 			<destination>{b74335fe-4922-4c79-a664-e1dd518286ee}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{d9ed1a98-2690-4213-b0e2-0257b644a293}" />
+	<object class="EventAutomatableProperties" id="{d9ed1a98-2690-4213-b0e2-0257b644a293}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{c09129b5-5120-45f1-8280-bb1041375a7b}" />
 	<object class="MarkerTrack" id="{92f69336-dc3e-4dd6-ab65-864d14313623}" />
 	<object class="GroupTrack" id="{473c8fe2-5048-4087-9b00-565014617fa9}">
