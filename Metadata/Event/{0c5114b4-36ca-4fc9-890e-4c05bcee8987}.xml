@@ -942,7 +942,7 @@ Combat parametern är en global parameter med ett värde från 0-1 som startar C
 	<object class="MixerBusPanner" id="{68849272-7707-400f-834f-3368dd9eaf3f}" />
 	<object class="ParameterCondition" id="{ee9f0e2e-e449-4d85-a999-e970281a3261}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
 			<value>1</value>
