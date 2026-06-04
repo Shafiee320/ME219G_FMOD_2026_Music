@@ -99,7 +99,7 @@ Combat parametern är en global parameter med ett värde från 0-1 som startar C
 			<destination>{ae9386c5-ccb9-4e7a-b7b2-3da0f567a86b}</destination>
 			<destination>{96cca782-ba86-4286-ae38-c98dcf0a1da2}</destination>
 			<destination>{9d87bf89-9325-46bd-a827-22f808f94203}</destination>
-			<destination>{75d126db-c1d7-4f93-8db7-d6a648233ccc}</destination>
+			<destination>{28eebb9e-f10c-4647-a58c-633571e9d0d4}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{63a2a138-1b73-4fa8-9a70-41c069ad31aa}</destination>
@@ -145,7 +145,7 @@ Combat parametern är en global parameter med ett värde från 0-1 som startar C
 			<destination>{dd2da71f-3edb-42be-88fd-f3f74bfa7d59}</destination>
 			<destination>{96cca782-ba86-4286-ae38-c98dcf0a1da2}</destination>
 			<destination>{9d87bf89-9325-46bd-a827-22f808f94203}</destination>
-			<destination>{75d126db-c1d7-4f93-8db7-d6a648233ccc}</destination>
+			<destination>{28eebb9e-f10c-4647-a58c-633571e9d0d4}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{fb89cb53-c108-463c-96e3-d781d4d1d38b}</destination>
@@ -356,7 +356,7 @@ Combat parametern är en global parameter med ett värde från 0-1 som startar C
 			<destination>{46ceb415-60f3-489d-9069-fc5f67f244ef}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{75d126db-c1d7-4f93-8db7-d6a648233ccc}">
+	<object class="SingleSound" id="{28eebb9e-f10c-4647-a58c-633571e9d0d4}">
 		<property name="start">
 			<value>78.720000000000013</value>
 		</property>
@@ -364,7 +364,7 @@ Combat parametern är en global parameter med ett värde från 0-1 som startar C
 			<value>32.322698412698415</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{1391a97c-f9d3-4585-8415-4443cdcc9011}</destination>
+			<destination>{5c320ead-8581-4157-b994-6d128a0a21ce}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{63a2a138-1b73-4fa8-9a70-41c069ad31aa}">
