@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f60f0816-bf0a-474e-bc68-cee13e7e9cee}">
 		<property name="assetPath">
-			<value>Sum 10OutdoorDrums.wav</value>
+			<value>OutdoorMusic/Sum 10OutdoorDrums.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{aec6c523-6928-4b97-a916-15a5e3b100cf}">
 		<property name="assetPath">
-			<value>Orbital ChimesKey Pickup Stinger ver 1.wav</value>
+			<value>Stingers/Orbital ChimesKey Pickup Stinger ver 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a9f2c7e0-1c20-455c-89e5-879f0a35ea8e}">
 		<property name="assetPath">
-			<value>Cloudy Plucked Synth_1.wav</value>
+			<value>OutdoorMusic/Cloudy Plucked Synth_1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

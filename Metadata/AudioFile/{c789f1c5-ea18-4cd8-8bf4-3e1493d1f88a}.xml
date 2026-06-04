@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{ccd6de2e-0982-4605-922a-651758fa3a4d}">
+	<object class="AudioFile" id="{c789f1c5-ea18-4cd8-8bf4-3e1493d1f88a}">
 		<property name="assetPath">
-			<value>IndoorMusic/ZOne 4.wav</value>
+			<value>MainMenu.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>22.588231292517008</value>
+			<value>18.949002267573697</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

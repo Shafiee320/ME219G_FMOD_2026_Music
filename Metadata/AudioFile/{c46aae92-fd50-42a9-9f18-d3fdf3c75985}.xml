@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c46aae92-fd50-42a9-9f18-d3fdf3c75985}">
 		<property name="assetPath">
-			<value>Ruins Zone_longTail.wav</value>
+			<value>OutdoorMusic/Ruins Zone_longTail.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

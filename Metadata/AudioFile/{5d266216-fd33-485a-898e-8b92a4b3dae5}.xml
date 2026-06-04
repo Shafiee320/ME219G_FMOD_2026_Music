@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5d266216-fd33-485a-898e-8b92a4b3dae5}">
 		<property name="assetPath">
-			<value>GameOver stinger.wav</value>
+			<value>Stingers/GameOver stinger.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
