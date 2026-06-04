@@ -956,7 +956,7 @@ Combat parametern är en global parameter med ett värde från 0-1 som startar C
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{50ee1676-5b71-4e66-a82c-ff954156c4e6}</destination>
