@@ -3,7 +3,7 @@
 	<object class="Event" id="{9b26d574-22a1-4b52-8a24-ac3ab0d299e0}">
 		<property name="note">
 			<value>The IsBossIn paramater decides if the music loop stops and jumps to the end stinger.
-The PlayDrumsBoss decides if the event is playing or not. </value>
+The PlayDrumsBoss decides if the Tranciever event is playing or not. </value>
 		</property>
 		<property name="name">
 			<value>Zone 5</value>
