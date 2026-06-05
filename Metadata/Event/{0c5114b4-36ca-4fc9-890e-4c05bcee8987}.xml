@@ -663,7 +663,7 @@ Combat parametern är en global parameter med ett värde från 0-1 som startar C
 			<value>31.999999999999993</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>3</value>
+			<value>5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{bf0fbcbb-ac74-4582-9866-9bc59726fa10}</destination>
