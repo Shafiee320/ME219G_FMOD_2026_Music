@@ -2,9 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0c5114b4-36ca-4fc9-890e-4c05bcee8987}">
 		<property name="note">
-			<value>OutdoorZones parametern bestämmer vilken musikloop som spelas.
+			<value>The OutdoorZones parameter decides which music loop is playing
 
-Combat parametern är en global parameter med ett värde från 0-1 som startar Comvat eventet </value>
+The  Combat parameter is a global parameter that has a value between 0-1. It is used to decide if the Combat event is active or not . If the value is 0  then the event is not playing and if its at 1 its playing
+</value>
 		</property>
 		<property name="name">
 			<value>OutdoorMusic</value>

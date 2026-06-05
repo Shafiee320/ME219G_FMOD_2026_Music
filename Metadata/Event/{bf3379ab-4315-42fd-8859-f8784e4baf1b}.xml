@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bf3379ab-4315-42fd-8859-f8784e4baf1b}">
+		<property name="note">
+			<value>The Combat parameter is a global parameter that has a value between 0-1. It is used to decide if the Combat event is active or not . If the value is 0  then the event is not playing and if its at 1 its playing
+</value>
+		</property>
 		<property name="name">
 			<value>Zone 4</value>
 		</property>

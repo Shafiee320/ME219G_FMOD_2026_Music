@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2fc338e2-30f3-4a14-a5c9-aa1bcf186229}">
+		<property name="note" />
 		<property name="name">
 			<value>ReverbSnapshot</value>
 		</property>

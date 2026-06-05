@@ -2,7 +2,8 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6b0ff961-405a-404e-8616-639edcc83da5}">
 		<property name="note">
-			<value>Combat parametern har ett värde från 0-1 och bestämmer om CombatSnapshot spelas och om volymen av eventet är på. På värdet 0 är eventet av och 1 är eventet på</value>
+			<value>The  Combat parameter is a global parameter that has a value between 0-1. It is used to decide if the Combat Snapshot is active or not and set the CombatMusic volume. If the value is 0  then the event is not playing and if its at 1 its playing
+</value>
 		</property>
 		<property name="name">
 			<value>Combat</value>
